@@ -1,0 +1,10 @@
+#+DESCRIPTION: Header
+#+SETUPFILE: https://distro.tube/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: num:nil ^:{}
+
+* Footer
+Copyright © 2020-2021 Derek Taylor (DistroTube)
+
+This page is licensed under a [[https://creativecommons.org/licenses/by-nd/4.0/][Creative Commons Attribution-NoDerivatives 4.0 International License]] (CC-BY-ND 4.0).
+
+The source code for distro.tube can be found on [[https://gitlab.com/dwt1/distro.tube][GitLab]].  User-submitted contributions to the site are welcome, as long as the contributor agrees to license their submission with the CC-BY-ND 4.0 license.

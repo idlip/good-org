@@ -1,0 +1,72 @@
+#+TITLE: Welcome To Distro.Tube
+#+DESCRIPTION: DistroTube.com - Official Site of DistroTube and DTOS
+#+SETUPFILE: https://distro.tube/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: num:nil ^:{}
+#+INCLUDE: "~/nc/gitlab-repos/distro.tube/header.org"
+
+* Welcome
+DistroTube.com is a site created by Derek Taylor (DT), creator of the DistroTube (DT) video channel on YouTube and Odysee (LBRY).  I create videos about GNU/Linux, free software, open source software and related interests.  This site was created in =Emacs= and written in =Org Mode=.  I use Org Export to convert the "org" files into HTML, and I based the design on the popular "ReadTheOrg" theme from [[https://github.com/fniessen/org-html-themes][Org-HTML-Themes]]
+
+* DT on the web
+| *DT on the web*                   |
+|---------------------------------|
+| [[https://youtube.com/DistroTube][DistroTube on YouTube]]           |
+| [[https://odysee.com/@DistroTube:2][DistroTube on Odysee (LBRY)]]     |
+| [[https://patreon.com/distrotube/][Support DT on Patreon]]           |
+| [[https://gitlab.com/dwt1/][DT's GitLab]]                     |
+| [[https://gitlab.com/dwt1/distro.tube][Submit Guest Articles On GitLab]] |
+
+* DT's Video Library
+Here are links to my videos hosted on Odysee (LBRY), a free and open source alternative to YouTube.
+| *DT's video library* |
+|--------------------|
+| [[file:videos/2022-videos.org][Videos from 2022]]   |
+| [[file:videos/2021-videos.org][Videos from 2021]]   |
+| [[file:videos/2020-videos.org][Videos from 2020]]   |
+| [[file:videos/2019-videos.org][Videos from 2019]]   |
+| [[file:videos/2018-videos.org][Videos from 2018]]   |
+| [[file:videos/2017-videos.org][Videos from 2017]]   |
+
+* DT's Articles
+Here are some articles written by me that some may find useful.  They are mostly Linux and software-related.
+
+| *TITLE*                                                           |       *DATE* |
+|-----------------------------------------------------------------+------------|
+| [[file:articles/how-to-be-a-linux-user.org][How To Become A Linux User]]                                      | 06-18-2022 |
+| [[file:articles/those-saying-linux-is-hard.org][Those Saying Linux Is Hard Make Me Laugh]]                        | 06-18-2022 |
+| [[file:articles/should-information-be-free.org][Should Information Be Free?]]                                     | 03-17-2022 |
+| [[file:articles/nano-vs-vim.org][Nano or Vim? Which Terminal Text Editor Should You Use?]]         | 07-29-2021 |
+| [[file:articles/social-media-implements-new-policies.org][Social Media Sites Implement New Policies To Combat Wrong-Think]] | 07-20-2020 |
+| [[file:articles/fish-is-the-better-shell.org][Fish Is The Better Shell For More Modern Times]]                  | 04-09-2020 |
+| [[file:articles/give-new-linux-users-ubuntu.org][Give New Linux Users Ubuntu, Not Choice]]                         | 03-28-2020 |
+| [[file:articles/standardized-keybindings-tiling.org][Standardized Keybindings Across All Tiling Window Managers]]      | 03-12-2020 |
+| [[file:articles/why-linux-users-are-elitist.org][Why Do Most Linux Users Have An Elitist Attitude?]]               | 03-07-2020 |
+| [[file:articles/file-globbing-in-linux.org][File Globbing In Linux]]                                          | 02-26-2020 |
+| [[file:articles/securing-the-firefox-browser.org][Securing The Firefox Web Browser]]                                | 02-25-2020 |
+| [[file:articles/move-your-home-folder-to-second-drive.org][Move Your Home Folder To A Second Drive]]                         | 02-20-2020 |
+| [[file:articles/the-foss-code-of-conduct.org][The FOSS Code Of Conduct]]                                        | 01-20-2020 |
+| [[file:articles/seven-things-to-avoid-on-linux.org][Seven Things To Avoid On Linux]]                                  | 01-14-2020 |
+| [[file:articles/installing-lets-encrypt-on-ubuntu.org][Installing Let's Encrypt On Your Ubuntu Server]]                  | 01-04-2020 |
+
+* Guest Articles
+These are guest articles submitted by members of the community.  The source of this site and all of its content is available on my GitLab.  Thus, anyone that wants to submit an article can do so with a pull request.  Since this site is written entirely in =Org Mode=, to do a pull request, your article must be written in Org.
+
+=NOTE:= If you don't use Emacs/Org, then you can submit articles written in markdown, but don't do a pull request to submit markdown articles.  Instead, just open an issue on GitLab and paste your article in the new issue, and I will convert the markdown into Org.
+
+#+ATTR_HTML: :class article-listing
+[[file:guest-articles/Inline_images_in_Org_document.org][Inline Images in Org Document]] Dariusz Dębicki 04-30-2022
+
+| *TITLE*                                               | *AUTHOR*                  |       *DATE* |
+|-----------------------------------------------------+-------------------------+------------|
+| [[file:guest-articles/Inline_images_in_Org_document.org][Inline Images in Org Document]]                       | Dariusz Dębicki         | 04-30-2022 |
+| [[file:guest-articles/dynamic-capsules-with-go.org][Building Dynamic Capsules With Go!]]                  | Tre Babcock             | 05-31-2021 |
+| [[file:guest-articles/interactive-dotfile-management-dotbare.org][Interactive Dotfile Management With Dotbare]]         | Kevin Zhuang            | 05-25-2020 |
+| [[file:guest-articles/managing-dotfiles-with-rcm.org][Managing Dotfiles With Style With rcm]]               | Ronnie Nissan           | 04-23-2020 |
+| [[file:guest-articles/installing-manjaro-dual-boot.org][Installing Manjaro in Dual Booting Environment]]      | Primož Ajdišek "Bigpod" | 04-22-2020 |
+| [[file:guest-articles/installing-and-using-sxhkd.org][Installing And Using sxhkd]]                          | Ronnie Nissan           | 04-21-2020 |
+| [[file:guest-articles/using-dwmblocks-with-dwms-bar.org][Using dwmblocks With dwm's Bar]]                      | Ronnie Nissan           | 04-20-2020 |
+| [[file:guest-articles/how-to-install-suckless-tools.org][How to Install, Customize and Backup Suckless Tools]] | Ronnie Nissan           | 04-18-2020 |
+| [[file:guest-articles/its-time-for-new-text-editor.org][It's Time For a New Text Editor]]                     | Klaus-Dieter Schmatz    | 03-20-2020 |
+| [[file:guest-articles/vim-plugins-without-manager.org][Vim Plugins Without a Plugin Manager]]                | Klaus-Dieter Schmatz    | 03-15-2020 |
+
+#+INCLUDE: "~/nc/gitlab-repos/distro.tube/footer.org"
