@@ -11,14 +11,12 @@ jobs:
     steps:
       - name: Install Emacs
         uses: purcell/setup-emacs@master
-      #   with:
-      #     version: 27.2
+        with:
+           version: 27.2
       #     # version: 24.1
       #     # version: 24.5
       #     # version: 25.3
       #     # version: 26.3
-      - name: Install Emacs
-        run: sudo apt install emacs-nox --yes
 
       - name: Build the site
         run: ./build.sh
